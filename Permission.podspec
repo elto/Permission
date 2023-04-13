@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Permission"
-  s.version      = "2.0.4"
+  s.version      = "2.0.5"
   s.license      = { :type => "MIT" }
   s.homepage     = "https://github.com/delba/Permission"
   s.author       = { "Damien" => "damien@delba.io" }
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.weak_framework = 'Speech'
 
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "11.0"
 
   s.requires_arc = true
 
